@@ -1,0 +1,16 @@
+schemas:
+  data:
+    type: object
+    properties:
+      priceHT:
+        type: double
+        description: prix de la facture total HT
+      priceTTC:
+        type: double
+        description: prix de la facture total TTC
+      client:
+        type: string
+        description: nom du client
+      date:
+        type: string
+        description: date de la facture (format YYYY-MM-DD)
